@@ -10,7 +10,7 @@ class Solution(object):
         for i, a in enumerate(nums):
             if i > 0 and a == nums[i - 1]:
                 continue
-            
+
             l, r = i + 1, len(nums) - 1
             while l < r:
                 sum = a + nums[l] + nums[r]
@@ -23,5 +23,5 @@ class Solution(object):
                     l += 1
                     while nums[l] == nums[l - 1] and l < r:
                         l += 1
-        
+
         return res

@@ -15,5 +15,5 @@ class Solution(object):
                 res += word2[i]
             except:
                 pass
-                
+
         return res

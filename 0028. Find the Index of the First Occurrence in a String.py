@@ -6,6 +6,6 @@ class Solution(object):
         :rtype: int
         """
         for i in range(len(haystack) + 1 - len(needle)):
-            if haystack[i:i+len(needle)] == needle:
+            if haystack[i : i + len(needle)] == needle:
                 return i
         return -1

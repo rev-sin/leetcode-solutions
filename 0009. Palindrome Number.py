@@ -8,5 +8,5 @@ class Solution(object):
         xrev = strx[::-1]
         if strx == xrev:
             return True
-        
+
         return False
